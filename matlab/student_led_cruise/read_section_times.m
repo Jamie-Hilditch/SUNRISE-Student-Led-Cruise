@@ -1,7 +1,7 @@
 function tbl = read_section_times
 %read_section_times - Read section start and end times from csv
 %
-% Syntax: tbl = read_section_times()
+% Syntax: tbl = read_section_times
 %
 % Table with UTC and local section start and end times.
 % N.B. All datetimes are timezone unaware.
