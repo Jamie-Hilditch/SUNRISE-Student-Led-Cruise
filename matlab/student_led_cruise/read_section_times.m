@@ -8,9 +8,9 @@ function tbl = read_section_times
 % A display time string defined using Aries' local section start time
 % is also given.
 
-arguments (Output)
-    tbl table
-end
+% arguments (Output)
+%     tbl table
+% end
 
     % filepath relative to this file
     relative_filepath = "../../metadata/section_times.csv";

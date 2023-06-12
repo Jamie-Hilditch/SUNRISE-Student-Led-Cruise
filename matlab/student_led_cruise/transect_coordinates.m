@@ -9,10 +9,10 @@ function [ coordinate_transform, velocity_transform ] = transect_coordinates
 % coordinate system. The along-track coordinate approximately follows 
 % Aries' ship track.
 
-arguments (Output)
-    coordinate_transform function_handle
-    velocity_transform function_handle
-end
+% arguments (Output)
+%     coordinate_transform function_handle
+%     velocity_transform function_handle
+% end
 
     % filepath relative to this file
     relative_filepath = "../../metadata/transect_coordinates.json";
